@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Sam Tavolacci's Quiz</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1>WRA 410 Coding Quiz</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">What is the device used in our browsers to surf the web? (aka the World Wide Web)</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">What is the address bar information called?</p>
+<input type = "radio" id = "mc" name = "question2" value = "URL"> URL<br>
+<input type = "radio" id = "mc" name = "question2" value = "HTML"> HTML<br>
+
+<p class = "questions">What is the type of program that is used to edit a website?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Text Editor"> Text Editor<br>
+<input type = "radio" id = "mc" name = "question3" value = "Code Writer"> Code Writer<br>
+    
+<p class = "questions">What is the name of the file that is first referenced when opening a webpage?</p>
+<input id = "textbox" type = "text" name = "question4">
+    
+<p class = "questions">What does HTML stand for?</p>
+
+<input type = "radio" id = "mc" name = "question5" value = "Hypertext Modifying Language"> Hypertext Modifying Language<br>
+<input type = "radio" id = "mc" name = "question5" value = "Hypertext Markup Language"> Hypertext Markup Language<br>
+    
+<p class = "questions">What does CSS stand for?</p>
+
+<input type = "radio" id = "mc" name = "question6" value = "Color and Style Support"> Color and Style Support<br>
+<input type = "radio" id = "mc" name = "question6" value = "Cascading Style Sheets"> Cascading Style Sheets<br>
+    
+<p class = "questions">What coding language was used to create Twitter?</p>
+<input id = "textbox" type = "text" name = "question7">
+    
+<p class = "questions">How do you change your directory in your terminal?</p>
+
+<input type = "radio" id = "mc" name = "question8" value = "cd"> cd<br>
+<input type = "radio" id = "mc" name = "question8" value = "mkdir"> mkdir<br>
+    
+<p class = "questions">What do you have to type into your terminal to be able to upload to github?</p>
+
+<input type = "radio" id = "mc" name = "question9" value = "git push -u origin master"> git push -u origin master<br>
+<input type = "radio" id = "mc" name = "question9" value = "git add ."> git add ."<br>
+    
+<p class = "questions">How do you change your directory to access a different hard drive?</p>
+
+<input type = "radio" id = "mc" name = "question10" value = "mkdir /mnt/d"> mkdir /mnt/d<br>
+<input type = "radio" id = "mc" name = "question10" value = "cd /mnt/d"> cd /mnt/d<br>
+    
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();" onclick = "topFunction();">
+
+
+</form>
+    
+    
+    
+    
+
+<div id = "after_submit">
+    <p id = "number_correct"></p>
+    <p id = "message"></p>
+    <img id = "picture">
+    <a href = "results.html" id = "newbutton">Click here for the answers!</a>
+</div>
+
+</body>
+</html>
+
+
+
